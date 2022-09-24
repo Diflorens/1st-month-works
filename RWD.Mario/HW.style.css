@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(231, 138, 231);
+    margin: 0 auto;
+}
+header{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main{
+    background-color: white;
+    padding: 1rem;
+}
+.container{
+    background-color: white;
+    max-width: 98%;
+    margin: 40px auto 60px;
+}
+
+.menu, .content, .aboutme{
+    width: 30%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    background-color: white;
+}
+
+li{
+list-style: none;
+border: solid 1px red;
+width: 80%;
+padding: 0.5rem 1rem;
+font-size: 20px;
+border-radius: 5px;
+margin-bottom: 10px;
+text-align: center;
+background-color: rgb(218, 76, 218);
+color: white;
+transition: 1s;
+}
+li:hover{
+    background-color: white;
+    color: rgb(218, 76, 218);
+}
+.red{
+    color: red;
+}
+.largetext{
+    color: red;
+    font-size: xx-large;
+}
+aside{
+    background-color: lightseagreen;
+    padding: 1rem;
+    margin: 10px 20px 70px 10px;
+}
+footer{
+    background-color: lightcyan;
+    color: red;
+    border: solid 2px green;
+    border-radius: 10px;
+    max-width: 95%;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/*we need to write the css for the desktop*/
+
+@media screen and (max-width: 600px){
+    .menu, .content, .aboutme{
+        float: none;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .container{
+    padding-top: 20px;
+    }
+    }

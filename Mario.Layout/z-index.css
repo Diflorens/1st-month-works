@@ -1,0 +1,38 @@
+.container,body{
+background-color: pink;
+margin: 0;
+height: 100hv;
+}
+.box{
+background-color: red;
+position: absolute;
+width: 350px;
+height: 200px;
+z-index: 1;
+top: 50px;
+left: 50px;
+font-size: x-large;
+color: white;
+}
+.box2{
+background-color: greenyellow;
+position: absolute;
+width: 350px;
+height: 200px;
+z-index: 2;
+top: 200px;
+left: 150px;
+font-size: x-large;
+color: black;
+}
+.box3{
+background-color: blue;
+position: absolute;
+width: 350px;
+height: 200px;
+z-index: 3;
+top: 100px;
+left: 300px;
+font-size: x-large;
+color: white;
+}

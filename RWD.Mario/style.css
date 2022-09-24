@@ -1,0 +1,28 @@
+img{
+    width: 100%;
+}
+div{
+    width: 100%;
+    min-width: 300px;
+    max-width: 200px;
+}
+
+/* this is the css of the tablet version*/
+@media screen and (min-width: 600px) {
+    div{
+        width: 50%;
+        float: left;
+    }
+}
+/* this is css of the desktop version*/
+@media screen and (min-width:800px) {
+    div{
+        width:25%;
+    }
+}
+
+@media print{
+    img{
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.button1{
+background-color: skyblue; color: black; width: 300px; height: 200px; font-size: 50px; font-weight: bold; padding: 15px 20px 15px; border: 25px solid green; border-radius: 15px;
+}
+.button2{
+    background-color: skyblue; color: black; width: 300px; height: 200px; font-size: 50px; font-weight: bold; padding: 15px 20px 15px; border: 25px solid green; border-radius: 15px;
+}
+.button3{
+    background-color: skyblue; color: black; width: 300px; height: 200px; font-size: 50px; font-weight: bold; padding: 15px 20px 15px; border: 25px solid green; border-radius: 15px;
+}
+.button4{
+    background-color: skyblue; color: purple; width: 908px; height: 200px; font-size: 50px; font-style: italic; font-weight: bold; padding: 15px 20px 15px; border: 25px solid green; border-radius: 15px;
+}
+.submit{
+    color: red;
+}

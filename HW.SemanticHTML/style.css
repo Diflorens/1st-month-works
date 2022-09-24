@@ -1,0 +1,44 @@
+p{
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}
+p:hover{
+    color: red;
+}
+.container{
+    background-color: powderblue;
+    border: 5px solid goldenrod;
+    text-align: center;
+    height: 650px;
+}
+
+header, nav, .wrapper, footer{
+    border: 5px solid goldenrod;
+    background-color: aquamarine;
+    margin: auto;
+    width: 95%;
+}
+nav{
+    margin-bottom: 20px;
+}
+
+main, aside{
+    border: 5px solid goldenrod;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    vertical-align: top;
+    margin: 0 10px 20px 10px;
+}
+
+article{
+    border: 3px solid goldenrod;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.wrapper, footer{
+    margin-top: 20px;
+    }

@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	margin: 30px 40px;
+	font-size: xx-large;
+  font-weight: bolder;
+}
+
+img{
+    height: 150px;
+	  width: 100%;
+}
+.image2{
+	height: 280px;
+}
+
+.box1{
+    width: 520px;
+    float: left;
+    box-shadow: 1px 1px 10px 0;
+    border: solid 0 lightgrey;
+    margin: 20px;
+    height: 450px;
+}
+.box2{
+    width: 240px;
+    float: left;
+    box-shadow: 1px 1px 10px 0;
+    border: solid 0 lightgrey;
+    margin: 20px;
+    height: 450px;
+}
+.box{
+    width: 240px;
+    float: left;
+    box-shadow: 1px 1px 10px 0;
+    border: solid 0 lightgrey;
+    margin: 20px;
+    height: 400px;
+}
+.cleaner{
+    clear: left;
+}
+
+h2, p{
+    margin: 20px;
+}
+
+button{
+    background-color: rgb(167, 163, 163);
+    width: 70%;
+    padding: 0px 5px 5px;
+    text-align: center;
+	margin-left: 35px;
+}

@@ -1,0 +1,33 @@
+header {
+    background-color: greenyellow;
+    height: 100px;
+    color: red;
+}
+* {
+    margin: 0;
+}
+h1 {
+    padding: 30px 20px 20px 20px;
+}
+aside{
+    float: left;
+    width: 200px;
+}
+main{
+    width: 200px;
+    float: right;
+}
+footer{
+background-color: plum;
+height: 50px;
+color: rebeccapurple;
+text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+aside, main{
+    display: inline-block;
+    background-color: grey;
+    vertical-align: top;
+}

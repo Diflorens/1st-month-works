@@ -1,0 +1,36 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    color: red;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+header{
+background-color: darkgreen;
+grid-column: 1/4;
+}
+.content{
+background-color: darkolivegreen;
+}
+.section{
+background-color: greenyellow;
+width: 70%;
+height: 20%;
+}
+aside{
+background-color: lightgreen;
+width: 25%;
+height: 50%;
+}
+footer{
+background-color: green;
+}

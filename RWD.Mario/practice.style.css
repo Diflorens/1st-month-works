@@ -1,0 +1,22 @@
+.box{
+    width: 90%;
+    border: solid 1px black;
+    margin: 1rem auto;
+    text-align: center;
+}
+.box img{
+    width: 100%;
+}
+@media screen  and (min-width: 700px) {
+    .box{
+        width: 45%;
+        float: left;
+        margin: 1rem;
+    }
+}
+@media screen and (min-width:800px){
+    .box{
+        width: 23%;
+        margin: 0 1% 0 0;
+    }
+}

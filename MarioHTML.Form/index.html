@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./recive.html" method="get">
+       <div>
+           <label for="name">Write your name :</label> 
+           <input placeholder="please write your name" required name="name" id="name"/>
+       </div>
+       <div>
+        <label for="name">Write your name</label> 
+        <input placeholder="please write your name" disabled name="lastname"/>
+    </div>
+       <div>
+           <label for="comment">write your comment</label>
+           <textarea placeholder="write your comments" name="textarea" id="comment"></textarea>
+       </div>
+       <div>
+           <label for="pizza">do you like pizza</label><br/>
+           <input type="checkbox" value="pizzayes"  checked name="pizza" id="pizza" />
+           <label for="pizza1">do you like pizza</label><br/>
+           <input type="checkbox" value="pizzayes" checked name="pizza1" id="pizza1" />
+           <label for="pizza2">do you like pizza</label><br/>
+           <input type="checkbox" value="pizzayes1" name="pizza2" id="pizza2" />
+       </div>
+       <div>
+           <h1>select if you agree</h1>  
+           <input type="radio" value="yes"  name="agree" /> YES<br/>
+           <input type="radio" value="not" checked name="agree"/>NOT<br/>
+           <input type="radio" value="maybe" name="agree"/> MAYBE     
+       </div>
+       <div>
+        <h1>Do you like to travel   </h1>  
+        <input type="radio" value="yes" name="travel" /> YES<br/>
+        <input type="radio" value="not" name="travel"/>NOT<br/>  
+    </div>
+    <fieldset>
+        <legend>Login Form</legend>
+        <label for="email">write your email</label>
+        <input type="email" name="email" id="email"><br/>
+        <label for="password">write your password</label>
+        <input type="password" name="password" id="password"/>
+        <label for="phone">
+            Write your phone
+        </label>
+        <input type="tel" id="phone" name="phone"/>
+        <div>
+            <label for="color">select the color of your background</label>
+            <input type="color" name="color" id="color"/>
+            <input type="range" name="range" id="range" min="100" max="500">
+            <select name="" id="">
+                <option value="">option one</option>
+                <option value="">option one</option>
+                <option value="">option one</option>
+            </select>
+            <input type="file" />
+            <input type="time"/>
+        </div>
+    </fieldset>
+        <button> send </button>
+    </form>
+
+</body>
+</html>

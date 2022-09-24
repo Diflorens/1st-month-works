@@ -1,0 +1,17 @@
+.header{
+    height: 250px;
+}
+
+.outer{
+    height: 200px;
+    border: solid red
+    2px;
+}
+.inner{
+    height: 100px;
+    background-color: yellow;
+    top: 0;
+}
+.innerinner{
+    display: block;
+}

@@ -1,0 +1,44 @@
+.card{
+box-shadow: 0 4px 8px 0 gray;
+transition: 1s;
+border-radius: 5px;
+width: 400px;
+height: 600px;
+
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 gray;
+}
+.container{
+    padding: 2px 16px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.text{
+    position: absolute;
+            top: 165px;
+            left: 155px;
+            font-size: large;
+            color: white;
+            border: solid 1px white;
+            padding: 10px;
+            border-radius: 10px;
+            border-width: 3px;
+
+}
+.city, .friends, .join{
+    color: gray;
+}
+hr{
+    color: gray;
+}
+.friends{
+    text-align: left;
+    float: left;
+}
+.join{
+    text-align: right;
+}

@@ -1,0 +1,40 @@
+body, html{
+    margin: 0;
+    height: 100%
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://appdevcon.nl/wp-content/uploads/2020/03/ADVANTAGES-AND-DISADVANTAGES-OF-BEING-A-DEVELOPER-.jpeg);
+    background-size: cover;
+    color: white;
+}
+.lefttop{
+    position: absolute;
+    left: 8px;
+    top: 16px;
+}
+.righttop{
+    position: absolute;
+    right: 8px;
+    top: 16px;
+}
+.maintext{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.bottomright{
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+}
+hr{
+    width: 60px;
+}

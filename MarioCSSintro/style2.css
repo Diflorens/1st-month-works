@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    font: 25px italic bold;
+}
+
+h1{
+    color: red;
+}
+
+a{
+    font-size: 25px;
+}
+
+li{
+    color: greenyellow;
+}
+
+ol li{
+    color: red;
+    font-size: 25px;
+}
+
+p mark{
+    color: blueviolet;
+}
+
+p{
+    color: brown;
+}
+
+.sentence{
+color: peru;
+}
+
+.text_allign{
+    color: plum;
+}
+
+.text_allign .classtest{
+    color: red;
+}
+
