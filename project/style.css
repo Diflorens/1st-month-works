@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    background-image: url(https://i.pcmag.com/imagery/roundups/02HDufdqeRUDu3tl0NnY2qZ-2..v1649351854.jpg);
+    color: white;
+    padding: 10px;
+    opacity: 0.5;
+}
+div{
+    margin: 1%;
+}
+.text-wrapper{
+    background-color: gray;
+}
+.image-wrapper{
+    background-color: aquamarine;
+}
+.content-wrapper{
+    width: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-wrapper img{
+    width: 100%;
+}
+.footer-container{
+    margin: o;
+    padding: 0;
+    height: 100px;
+}
+.contact{
+    background-color: skyblue;
+}
+.about{
+    background-color: olivedrab;
+    color: blue;
+}
+.web{
+    background-color: orchid;
+    color: blue;
+}
+@media screen and (min-width: 481px) {
+    .image-wrapper{
+        background-color: olivedrab;
+    }
+     .content-wrapper{
+        width: 30%;
+        box-sizing: border-box;
+        display: inline;
+        margin: auto;
+        margin-left: 18px;
+        float: left;
+     }
+     .content-wrapper img{
+        height: 200px;
+     }
+}
